@@ -1,6 +1,5 @@
 public class CozaLozaWoza {
     public static void main(String[] args) {
-        int itemsPerLine = 11;
         for (int i = 1; i <= 110; i++) {
             if (i % 3 == 0) {
                 System.out.print("Coza");
@@ -15,9 +14,6 @@ public class CozaLozaWoza {
                 System.out.print(i);
             }
             System.out.print(" ");
-            if (i % itemsPerLine == 0) {
-                System.out.println();
-            }
         }
     }
 }
